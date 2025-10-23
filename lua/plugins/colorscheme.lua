@@ -24,7 +24,7 @@ return {
 					ink = {
 						modes = {
 							normal = "#58A2CD",
-							insert = "#DD4F4F",
+							insert = "#DC5656",
 							visual = "#A973CB",
 							replace = palette_colors.dragonRed,
 							command = "#D4BD71",
