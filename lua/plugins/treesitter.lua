@@ -12,14 +12,15 @@ return {
 				},
 				indent = {
 					enable = true,
+					disable = { "cpp" },
 				},
 				autotage = {
 					enable = true,
 				},
 				ensure_installed = {
 					"lua", "luau", "c", "javascript", "typescript",
-					"tsx", "vim", "cpp"
-				},
+					"tsx", "vim", "cpp", "swift", "html", "css"
+			},
 				auto_install = false,
 			})
 		end

@@ -12,6 +12,7 @@ return {
 
 	config = function()
 		require("oil").setup({
+			skip_confirm_for_simple_edits = true,
 			columns = {
 				{
 					"icon",
@@ -22,6 +23,7 @@ return {
 				-- "mtime"
 			},
 			float = {
+				max_height = 30,
 				padding = 5,
 				border = "double",
 			},

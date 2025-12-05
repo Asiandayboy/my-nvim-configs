@@ -41,6 +41,7 @@ return {
 								bg_selected = "NONE",
 								bg = "NONE",
 							},
+							bg_visual = "#39394F",
 						},
 					},
 				},
@@ -76,6 +77,7 @@ return {
 					["@lsp.type.variable"] = { fg = "#9aacc1", bold = false },
 					["@lsp.type.punctuation"] = { fg = palette.oniViolet },
 					["@lsp.type.parameter"] = { fg = "#77aade" },
+					["@lsp.type.comment"] = { fg = "#75736B" },
 					["@constructor"] = { fg = "#64727f" },
 					["@punctuation.delimiter"] = { fg = "#46a0f5" },
 					["@punctuation.bracket"] = { fg = "#569CD6" },
@@ -88,6 +90,7 @@ return {
 			end,
 
 		})
+		vim.api.nvim_set_hl(0, "LspInactiveCode", { fg = "#6a6a6a", italic = true })
 		vim.cmd.colorscheme("kanagawa-paper-ink")
 	end,
 

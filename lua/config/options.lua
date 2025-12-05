@@ -1,4 +1,5 @@
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
@@ -54,7 +55,6 @@ function _G.MyTabLabel()
 
 	return s
 end
-
 vim.opt.tabline = "%!v:lua.MyTabLabel()"
 
 
@@ -67,5 +67,6 @@ vim.opt.foldenable = true
 
 
 
+vim.opt.cinoptions="sN" -- works with disabling Treesiter indent for cpp
 
 

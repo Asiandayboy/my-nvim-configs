@@ -5,6 +5,8 @@ require("config.lazy")
 require("lsp.lua_lsp")
 require("lsp.clangd")
 require("lsp.tsserver")
+require("lsp.sourcekit-lsp")
+require("lsp.webstuff-lsp")
 
 --[[ lsp configs ]]--
 vim.api.nvim_create_autocmd("LspAttach", {
@@ -23,6 +25,9 @@ local capabilities = require("blink.cmp").get_lsp_capabilities()
 vim.lsp.config["lua_lsp"].capabilities = capabilities
 vim.lsp.config["clangd"].capabilities = capabilities
 vim.lsp.config["tsserver"].capabilities = capabilities
+vim.lsp.config["sourcekit-lsp"].capabilities = capabilities
+vim.lsp.config["html"].capabilities = capabilities
+vim.lsp.config["css"].capabilities = capabilities
 
 ----------------------------------
 
