@@ -19,7 +19,7 @@ return {
 				},
 				ensure_installed = {
 					"lua", "luau", "c", "javascript", "typescript",
-					"tsx", "vim", "cpp", "swift", "html", "css"
+					"tsx", "vim", "cpp", "swift", "html", "css", "sql"
 			},
 				auto_install = false,
 			})

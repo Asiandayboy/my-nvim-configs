@@ -1,9 +1,22 @@
 vim.opt.number = true
 vim.opt.relativenumber = false
 vim.opt.cursorline = true
+
+
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.expandtab = false
+
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = { "javascript", "typescript", "typescriptreact", "javascriptreact" },
+	callback = function()
+		vim.opt_local.shiftwidth = 2
+		vim.opt_local.tabstop = 2
+		vim.opt_local.softtabstop = 2
+	end,
+})
+
+
 vim.opt.wrap = false
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 10

@@ -10,7 +10,7 @@ return {
 			transparent = true,
 			terminal_colors = true,
 			dim_inactive = false,
-			cache = false,
+			cache = true,
 
 			styles = {
 				comment = { italic = false },

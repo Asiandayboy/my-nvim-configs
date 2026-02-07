@@ -25,6 +25,9 @@ vim.keymap.set('n', "tt", function()
 	vim.cmd("tabnew | term")
 end, { desc = "Open a new terminal tab page" })
 
+vim.keymap.set('n', "<C-j>", "<C-e>", { desc  = "Sroll down one line" })
+vim.keymap.set('n', "<C-k>", "<C-y>", { desc  = "Sroll up one line" })
+
 
 
 -- Go to definition (robust)
