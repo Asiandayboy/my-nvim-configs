@@ -6,7 +6,7 @@
   "kanagawa-paper.nvim": { "branch": "master", "commit": "ccd5f727919bfe93af76561c31f43b53cd2871db" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
-  "luau-lsp.nvim": { "branch": "main", "commit": "03a2937bef492360467833eb05374fe85d97d387" },
+  "luau-lsp.nvim": { "branch": "main", "commit": "7706dc850adee2ae4dd593e853bda8b9fe9ac785" },
   "mini.icons": { "branch": "main", "commit": "efc85e42262cd0c9e1fdbf806c25cb0be6de115c" },
   "nvim-autopairs": { "branch": "master", "commit": "59bce2eef357189c3305e25bc6dd2d138c1683f5" },
   "nvim-highlight-colors": { "branch": "main", "commit": "e2cb22089cc2358b2b995c09578224f142de6039" },
