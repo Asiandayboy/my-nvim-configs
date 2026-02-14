@@ -39,6 +39,7 @@ vim.o.updatetime = 250  -- delay before hover
 vim.cmd [[autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false, source = true, border = "rounded" })]]
 
 vim.opt.shell = "powershell"
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.showtabline = 2
 function _G.MyTabLabel()
