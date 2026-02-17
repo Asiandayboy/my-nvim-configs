@@ -78,7 +78,7 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 vim.opt.foldlevel = 99 -- a random high number to ensure all folds are opened by default
 vim.opt.foldenable = true
-vim.opt.cinoptions="sN" -- works with disabling Treesiter indent for cpp
+vim.opt.cinoptions="sNl1" -- works with disabling Treesiter indent for cpp
 
 vim.filetype.add({
 	pattern = {
