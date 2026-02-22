@@ -15,7 +15,6 @@ local capabilities = require("blink.cmp").get_lsp_capabilities()
 vim.lsp.config["lua_lsp"].capabilities = capabilities
 vim.lsp.config["clangd"].capabilities = capabilities
 vim.lsp.config["tsserver"].capabilities = capabilities
-vim.lsp.config["sourcekit-lsp"].capabilities = capabilities
 vim.lsp.config["html"].capabilities = capabilities
 vim.lsp.config["css"].capabilities = capabilities
 

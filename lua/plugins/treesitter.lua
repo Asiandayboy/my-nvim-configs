@@ -19,7 +19,7 @@ return {
 				},
 				ensure_installed = {
 					"lua", "luau", "c", "javascript", "typescript",
-					"tsx", "vim", "cpp", "swift", "html", "css", "sql",
+					"tsx", "vim", "cpp", "html", "css", "sql",
 					"bash", "markdown", "markdown_inline", "ini"
 			},
 				auto_install = false,
