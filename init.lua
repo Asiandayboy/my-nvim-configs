@@ -6,7 +6,7 @@ require("config.lazy")
 require("lsp.lua_lsp")
 require("lsp.clangd")
 require("lsp.tsserver")
-require("lsp.sourcekit-lsp")
+-- require("lsp.sourcekit-lsp")
 require("lsp.webstuff-lsp")
 
 
