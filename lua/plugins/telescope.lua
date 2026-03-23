@@ -26,6 +26,8 @@ return {
 				layout_config = {
 					height = 0.9
 				},
+				file_ignore_patterns = {},
+				hidden = true,
 			},
 		})
 	end
