@@ -23,3 +23,9 @@ require("lazy").setup({
 	lockfile = vim.fn.stdpath("state") .. "/lazy-lock.json",
 	change_detection = { notify = false }
 })
+
+
+local parsers = os.getenv("NVIM_TREESITTER_PARSERS")
+if parsers then
+    vim.opt.runtimepath:append(parsers)
+end
