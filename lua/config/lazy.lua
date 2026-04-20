@@ -27,5 +27,6 @@ require("lazy").setup({
 
 local parsers = os.getenv("NVIM_TREESITTER_PARSERS")
 if parsers then
-    vim.opt.runtimepath:append(parsers)
+    -- append the parent dir, not the parser dir itself
+    vim.opt.runtimepath:append(vim.fn.fnamemodify(parsers, ":h"))
 end
