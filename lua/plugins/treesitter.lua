@@ -12,7 +12,14 @@ return {
 				},
 				indent = {
 					enable = true,
-					disable = { "cpp" },
+					disable = {
+						"cpp",
+						"typescript",
+						"tsx",
+						"javascript",
+						"javascriptreact",
+						"typescriptreact",
+					},
 				},
 				autotage = {
 					enable = true,
@@ -21,7 +28,7 @@ return {
 					"lua", "luau", "c", "javascript", "typescript",
 					"tsx", "vim", "cpp", "html", "css", "sql",
 					"bash", "markdown", "markdown_inline", "ini"
-			},
+				},
 				auto_install = false,
 			})
 		end
