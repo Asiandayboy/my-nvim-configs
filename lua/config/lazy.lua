@@ -22,17 +22,14 @@ require("lazy").setup({
 	},
 	lockfile = vim.fn.stdpath("state") .. "/lazy-lock.json",
 	change_detection = { notify = false },
-	performance = {
-		rtp = { reset = false },
-	},
 })
 
 
--- local parsers = os.getenv("NVIM_TREESITTER_PARSERS")
--- if parsers then
---     -- append the parent dir, not the parser dir itself
---     vim.opt.runtimepath:append(vim.fn.fnamemodify(parsers, ":h"))
--- end
+local parsers = os.getenv("NVIM_TREESITTER_PARSERS")
+if parsers then
+    -- append the parent dir, not the parser dir itself
+    vim.opt.runtimepath:append(vim.fn.fnamemodify(parsers, ":h"))
+end
 
 vim.treesitter.language.register("tsx", "typescriptreact")
 vim.treesitter.language.register("javascript", "javascriptreact")
