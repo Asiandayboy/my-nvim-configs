@@ -1,13 +1,10 @@
-
-
-
 vim.lsp.config["clangd"] = {
 	cmd = { 
 		"clangd" ,
 		"--query-driver=**",
 	},
 
-	filetypes = { "c", "cpp", "hpp" },
+	filetypes = { "c", "cpp" },
 
 	root_markers = { "Makefile", ".git", "CMakeLists.txt" },
 
