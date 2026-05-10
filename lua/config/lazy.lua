@@ -42,6 +42,7 @@ vim.api.nvim_create_autocmd("FileType", {
 		"bash", 
 		"sql",
 		"nix",
+		"odin"
 	},
     callback = function(ev)
         pcall(vim.treesitter.start, ev.buf)
